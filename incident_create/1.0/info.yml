@@ -1,0 +1,18 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  default_ajax_endpoint:
+    name: default_ajax_endpoint
+    type: ajax
+    description: Default AJAX endpoint
+    default: /cc/customajaxmb/incident_create
+    required: false
+  button_label:
+    name: button_label
+    type: string
+    description: Button Label
+    default: Create Incident
+    required: false
